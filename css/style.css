@@ -6,6 +6,7 @@
 #about{
 	background-color: #ffffff;
 	margin: 0 auto 50px auto;
+	padding-bottom: 30px;
 
 }
 
@@ -41,6 +42,10 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Georgia', "Times", "Times New Roman", "serif";
 	color: #4aaaa5; 
 }
+p#AboutMeText {
+	font-size: 18px;
+}
+
 div.wrapper{
 	float: left;
 	position:relative;
@@ -88,4 +93,5 @@ img.portimg{
  .row {
  	margin:auto;
  }
+
 }
