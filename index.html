@@ -1,112 +1,400 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-	<title>About Me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <title>Alexander Robinson's Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">   
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
+/>
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head> 
+
 <body>
-<div id="body-container">
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" alt="Alexander Robinson" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Alexander Robinson</h1>
+                <h2 class="desc">Full Stack Web Developer</h2>   
+                <ul class="social list-inline">
+                    <li><a href="https://www.linkedin.com/in/alexander--robinson/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/rath38"><i class="fa fa-github-alt"></i></a></li>                                  
+                </ul> 
+            </div><!--//profile-->              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Alexander Robinson is a full-stack web developer trained in the latest technologies. Reliable and punctual. Good oral and written communication skills. Extensive experience in customer service, assisting customers with a professional, courteous, and friendly attitude.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Class Projects</h2>
+                        <div class="content">    
+                                                <p class="summary">Click on either the title or the picture to see a deployed version of the homework or projects.Be aware if the homework or project is Node based you will be redirected to the github page instead where will be instructions on how the application works or how you can deploy it yourself. </p>
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://leftoversdelight.herokuapp.com/" target="_blank">Leftovers Delight</a></h3>
+                               
+                                <div class="featured-image">
+                                    <a href="https://leftoversdelight.herokuapp.com/" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/project3.png" alt="Project 3" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>Leftovers Delight is a Web Application designed to be food donation system in which restaurants or grocery stores can donate left over foods to food banks and homeless shelters. It incorporated login authentication for donors, volunteers, and recipients. The use of Google Maps to map out locations of shelters and food bank for volunteers.</p>
+                                </div><!--//desc-->         
+                                
+                               <p><a class="more-link" href="https://github.com/rath38/project-3" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p> 
 
-<div class="row">
-	<div class="col-md-12">
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://blooming-springs-37686.herokuapp.com/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/project2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://blooming-springs-37686.herokuapp.com/" target="_blank">Cryptocurrency Tracker</a></h3>
+                                    <p>Cryptocurrency Tracker is web application made to track cryptocurrency. Where users are able make accounts to track the favorite coins and find information such as daily, weekly, and monthly prices. It was built using technology such as Sequelize, Express, Handlebars, Bootstrap, Web API's, and various others.</p>
+                                    <p><a class="more-link" href="https://github.com/JQuinnie/Project-2-Team-3" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://rath38.github.io/The-Underdogs/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/project1.png" alt="Project 1" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://rath38.github.io/The-Underdogs/" target="_blank">Kickass Store Front</a></h3>
+                                    <p>Kickass Store Front was designed to allow you to view products from various stores and view products that that store was selling. It was built using HTML, Bootstrap, jQuery, And Walmart and Best Buy Web API's. </p>
+                                    <p><a class="more-link" href="https://github.com/rath38/The-Underdogs" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Class Homework</h2>
+                        <div class="content">
+                          
+                           <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://rath38.github.io/javascript-homework/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/hangman.png" alt="Javascript Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://rath38.github.io/javascript-homework/" target="_blank">Hangman</a></h3>
+                                    <p>This homework is a hangman game built with HTML, Bootstrap, and Javascript. </p>
+                                    <p><a class="more-link" href="https://github.com/rath38/javascript-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                           <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://rath38.github.io/firebase-homework/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/firebase.png" alt="Firebase Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://rath38.github.io/firebase-homework/" target="_blank">Train Time</a></h3>
+                                    <p>The homework assignment Train Time is train scheduler that gives the time when a train will leave or arrive. It built using a Firebase database and Moment.Js. Firebase is used to store the data for the trains and Moment.JS is used to format the time and dates fot the trains. </p>
+                                    <p><a class="more-link" href="https://github.com/rath38/firebase-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
 
-<nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-     
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div id="title" class="navbar-brand">Alex Robinson</div>
-        </div>
+                             <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://rath38.github.io/TriviaGame/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/trivia.png" alt="Moment.JS Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://rath38.github.io/TriviaGame/" target="_blank">Trivia Game</a></h3>
+                                    <p>This Trivia Game is a timed quiz game built using HTML, Bootstap, and Javascipt. Using Javascript functions such as setInterval to count each 1000 millisecond and using setTimeout function to run code when the set ammount of time is over. </p>
+                                    <p><a class="more-link" href="https://github.com/rath38/TriviaGame"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://rath38.github.io/ajax-homework/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/giphy.png" alt="AJAX Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://rath38.github.io/ajax-homework/" target="_blank">Giphy</a></h3>
+                                    <p>The Giphy Homework assignment is are classes first use of web API's and our introduction into the use of Asynchronous Javascript through the us of AJAX calls. It was built using jQuery and Giphy web API.</p>
+                                    <p><a class="more-link" href="https://github.com/rath38/ajax-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
 
-        
-        <div class="collapse navbar-collapse" id="navbar-brand">
-          
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="lazy" href="index.html">About Me</a></li>
-      		<li><a class="lazy" href="contact.html">Contact</a></li>
-     		 <li><a href="portfolio.html">Portfolio</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-		
-	</div>
-</div>
+                             <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://rath38.github.io/crystal-collector/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/crystal.png" alt="jQuery Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://rath38.github.io/crystal-collector/" target="_blank">Crystal Collector</a></h3>
+                                    <p>Crystal Collector is the Homework assignment used to introduce us to the use of jQuery. The point of the game is at start of the game a total number is generated with 4 crystal which each represent a number and use each crystal to reach the total number generated at the start of the game.</p>
+                                    <p><a class="more-link" href="https://github.com/rath38/Crystal-Collector"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://murmuring-peak-43653.herokuapp.com/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/express.png" alt="Express Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://murmuring-peak-43653.herokuapp.com/" target="_blank">Friend Finder</a></h3>
+                                    <p>Friend Finder is our introduction into the uses of server frameworks. It was built using express as the server framework and the use of HTML and Bootstrap to build a friend finding application in which the user takes a survey to find the most compatible friend within the users stored in the database. </p>
+                                    <p><a class="more-link" href="https://github.com/rath38/express-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
 
-<div class="container">	
+                             <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/rath38/node.js-homework" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/nodejs.png" alt="Node.JS Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/rath38/node.js-homework" target="_blank">Liri</a></h3>
+                                    <p>Liri or language interpretation and recongnition interface is our introduction into Node.JS which was a used to create a command line program in which you give it a certain command and liri will run it. It was built using just Node.JS and Javascript.</p>
+                                    <p><a class="more-link" href="https://github.com/rath38/node.js-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/rath38/mysql-homework" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/bamazon.png" alt="MySQL Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/rath38/mysql-homework" target="_blank">Bamazon</a></h3>
+                                    <p>Bamazon homework was our classes introduction into the use of MySQL Database. The point of the homework assignment was broken into two parts with the first part being Bamazon Customer command line interface used to display products to buy then prompts the user in which product to buy. The second part is Bamazon Manager which is also a command line interface that displays commands that you can choose that range from viewing products, viewing low inventory, adding inventory into products already on database, and adding new products into the database</p>
+                                    <p><a class="more-link" href="https://github.com/rath38/mysql-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                             <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/rath38/advance-javascript-homework" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/hangman2.png" alt="Constructor Javascript Homework" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/rath38/advance-javascript-homework" target="_blank">Node.JS Hangman Game</a></h3>
+                                    <p>Node.JS Hangman Game is our introduction into Constructors in Javascript. Which was used to hold all game logic between words and letters for the hangman game. </p>
+                                    <p><a class="more-link" href="https://github.com/rath38/advance-javascript-homework" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Full Stack Web Developer Coding Bootcamp - <span class="place"><a href="#">Univ. of Texas</a></span> <span class="year">(2017 - 2018)</span></h3>
+                                <p>Designed and developed web applications using technologies that include:
+                                JavaScript, CSS, node.js, Express, firebase, MySQL, and react.</p>
+                                
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Sandwich Artist - <span class="place"><a href="#">Subway</a></span> <span class="year">(2016 - 2017)</span></h3>
+                                <p>Handled customer requests for sandwiches, food preparation tasks, and maintaining
+                                a clean store. Consistently finished all assigned tasks in an orderly fashion.
+                                Maintained TX-state Food Service Manager certification.</p>
+ 
+
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Cashier - <span class="place"><a href="#">HEB, Walmart, Target</a></span> <span class="year">(2013 - 2016)</span></h3>
+                                <p>Handled customer check out, including scanning merchandise, looking up produce
+                                codes, operating the cash register, taking and processing cash, debit, and credit
+                                payments, issuing receipts and change to customers, and bagging customers’ items.</p>
 
 
-	<div id="about" class="col-md-7">
-		<h2>About Me</h2>
-				<hr></hr>
-	<div class="col-md-12">	
-		<div class="col-md-4">		
-			<img class="visible-lg pull-left" src="images/prof.jpg"  width="200px" height="200px">
-			<img class="visible-md" src="images/prof.jpg"  width="515px" height="350px">
-			<img class="visible-sm" src="images/prof.jpg"  width="690px" height="400px">
-			<img class="visible-xs" src="images/prof.jpg"  width="560px" height="400px">
-		</div>
+                                <p>Provided customer service in a professional and friendly manner, including greeting
+                                customers, assisting customers looking for merchandise, answering customer
+                                questions, and handling and resolving customer issues.</p> 
 
-		<div class="col-md-7 col-md-offset-1">	
-			<p id="AboutMeText">
-				Alexander Robinson is a full-stack web developer trained in the latest technologies. Reliable and punctual. Good oral and written communication skills. Extensive experience in customer service, assisting customers with a professional, courteous, and friendly attitude.
-			</p>
-		</div>
-	</div>
-	</div>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>(281)-638-6701</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>alexandererobinson@gmail.com</li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Node.js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">MySQL<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                            
+                             <div class="item">
+                                    <h3 class="level-title">Express<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
-	<div  id="connect" class="col-md-3 col-md-offset-2">
-		<aside>
-	<h2> Connect With Me</h2>
-		<hr> </hr>
-			<ul class="list-unstyled" id="connectul">
-				<li class="connectimg"> <a href="https://github.com/rath38"><img src="images/github.png" ></a></li>
-				<li class="connectimg"> <a href="https://www.linkedin.com/in/alexander-robinson-99417768/"><img src="images/linkedin.png" ></a> </li>
-				<li class="connectimg"> <a href="https://stackoverflow.com/users/8658001/alex-robinson"><img src="images/stackoverflow.png"></a> </li>
-			</ul>
-	</aside>
+                                 <div class="item">
+                                    <h3 class="level-title">Bootstrap<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
-	</div>
+                                 <div class="item">
+                                    <h3 class="level-title">Web &amp; Backend API's<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
+                                 <div class="item">
+                                    <h3 class="level-title">React<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
-</div>
-</div>
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Full Stack Web Developer certification</h3>
+                                <h4 class="university">University Texas Austin <span class="year">(2017-2018)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
 
+                Alexander Robinson's Portfolio
 
-<div class="row">
-	<div class="col-md-12">
-		
-	<footer>
-	<p>@Copyright2017 Alexander Robinson</p>
-	</footer>
-
-	</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
